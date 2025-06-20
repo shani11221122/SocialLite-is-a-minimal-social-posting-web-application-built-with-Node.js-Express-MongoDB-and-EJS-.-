@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Form</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900 w-full h-screen font-sans">
+
+  <div class="flex justify-center items-center min-h-screen bg-gradient-to-br from-indigo-700 via-purple-700 to-pink-600">
+
+    <form action="/register" method="POST" class="bg-zinc-800 p-8 rounded-2xl shadow-2xl w-full max-w-md text-white border border-purple-500/20 backdrop-blur-sm">
+
+      <h1 class="text-3xl font-extrabold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 hover:scale-105 hover:underline transition-all duration-300">
+         Please Fill the Form 
+      </h1>
+
+      <input type="text" name="name" placeholder="Your Full Name" 
+             class="w-full p-3 mb-4 rounded-lg bg-zinc-700 placeholder-gray-400 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-200" />
+
+      <input type="text" name="username" placeholder="Choose a Username" 
+             class="w-full p-3 mb-4 rounded-lg bg-zinc-700 placeholder-gray-400 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-200" />
+
+      <input type="email" name="email" placeholder="Email Address" 
+             class="w-full p-3 mb-4 rounded-lg bg-zinc-700 placeholder-gray-400 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-200" />
+
+      <input type="password" name="password" placeholder="Create Password" 
+             class="w-full p-3 mb-4 rounded-lg bg-zinc-700 placeholder-gray-400 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-200" />
+
+      <input type="number" name="number" placeholder="Your Age" 
+             class="w-full p-3 mb-6 rounded-lg bg-zinc-700 placeholder-gray-400 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-200" />
+
+      <input type="submit" value="🚀 Create User"
+             class="w-full p-3 font-semibold text-lg rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 hover:scale-105 transition duration-300 cursor-pointer shadow-md" />
+<a  href="/login" class="justify-center items-center text-white w-full  text-lg cursor-pointer shadow-md m-3 p-4 ">Already Register ? Want to Login</a>
+    </form>
+  </div>
+
+</body>
+</html>
