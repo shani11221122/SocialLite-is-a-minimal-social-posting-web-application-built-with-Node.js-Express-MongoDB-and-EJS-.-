@@ -29,3 +29,17 @@
 
 ## 📁 Project Structure
 
+├── app.js
+├── models
+│ ├── user.js
+│ └── post.js
+├── views
+│ ├── register.ejs
+│ ├── login.ejs
+│ ├── profile.ejs
+│ ├── edit.ejs
+├── public (if using static assets)
+└── package.json
+
+
+
